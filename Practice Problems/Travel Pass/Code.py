@@ -1,3 +1,4 @@
+
 # Function to calculate the total time Chef has to spend on filling the various forms
 def calculate_total_time(N, A, B, S):
     total_time = 0
