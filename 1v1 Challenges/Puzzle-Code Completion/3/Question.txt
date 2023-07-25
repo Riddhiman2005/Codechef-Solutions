@@ -1,0 +1,26 @@
+An tetragon is known as a inscribed tetragon if the sum of the opposite angles is 
+180∘
+
+You are given the 4 angles of such a tetragon as 
+W, X, Y and Z in order.
+Output if the given tetragon is inscribed.
+
+Input Format
+The first line of the input contains a single integer 
+T denoting the number of test cases. The description of 
+T test cases follows.
+The first and only line of each test case contains four space-separated integers 
+W, X, Y and Z.
+
+Output Format
+Print a single line containing the string &quot; YES&quot; if the tetragon is inscribed or &quot;NO&quot; if it is not (without quotes).
+
+You may print each character of the string in uppercase or lowercase.
+
+Constraints
+
+1≤T≤10 
+
+1≤W,X,Y,Z≤357
+
+W+X+Y+Z=360
