@@ -1,3 +1,4 @@
+
 t = int(input()) 
 
 M = [6, 2, 5, 5, 4, 5, 6, 3, 7, 6]  # List containing the number of matches needed for digits 0 to 9
