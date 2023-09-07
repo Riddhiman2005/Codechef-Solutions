@@ -1,0 +1,37 @@
+
+private fun readChars() = readLn().toCharArray()
+private fun readLn() = readLine()!! // string line
+private fun readSb() = StringBuilder(readLn())
+private fun readInt() = readLn().toInt() // single int
+private fun readLong() = readLn().toLong() // single long
+private fun readBigInt() = readLn().toBigInteger() // single BigInteger
+private fun readDouble() = readLn().toDouble() // single double
+private fun readStrings() = readLn().split(" ") // list of strings
+private fun readInts() = readStrings().map { it.toInt() } // list of ints
+private fun readLongs() = readStrings().map { it.toLong() } // list of longs
+private fun readBigInts() = readStrings().map { it.toBigInteger() } // list of BigIntegers
+private fun readDoubles() = readStrings().map { it.toDouble() } // list of doubles
+private fun readIntArray() = readStrings().map { it.toInt() }.toIntArray() // Array of ints
+private fun readLongArray() = readStrings().map { it.toLong() }.toLongArray() // Array of longs
+private fun readMutableMap() = readLn().groupingBy { it }.eachCount().toMutableMap()
+
+
+fun main (args: Array<String>) {
+
+    val nbT = readInt()
+
+    reprise@ for (t in 1..nbT) {
+
+        var n = readInt()
+        var sOut = StringBuilder()
+
+        for (i in 1..n) {
+            sOut.append("$i ")
+        }
+
+        println(sOut.toString())
+
+    }
+
+}
+
