@@ -6,6 +6,11 @@
 
 ## CodeChef Solutions ##
 
+
+[CODECHEF PROFILE](https://www.codechef.com/users/riddhiman2005)
+
+
+
 ## Current Status #
 
 
@@ -16,7 +21,12 @@
 
 
 **PYTHON(mostly)** <br>
-**Java**
+**Java**<br>
+**C++**<br>
+**Kotlin**<br>
+**Go**<br>
+  C#<br>
+
 
 
 # Current Status #
